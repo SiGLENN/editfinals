@@ -1,0 +1,91 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin: 80px auto;
+  padding: 40px 5%;
+  background-color: var(--color-background);
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: var(--color-primary);
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--color-primary); /* Same primary color as button */
+  color: var(--color-text);
+  padding: 20px;
+  border-radius: 10px; /* Circular edges */
+  border: 2px solid var(--color-primary); /* Same border style as button */
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25); /* Similar shadow effect */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+
+.skill:hover {
+  background-color: transparent;
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0); /* Optional: Remove shadow on hover */
+  transform: translateY(-5px);
+}
+
+.skillImageContainer {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-primary-light);
+}
+
+.skillImageContainer img {
+  width: 70px;
+}
+
+.skillTitle {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+.skillLevel {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-primary);
+  margin-top: 5px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .skills {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skillImageContainer {
+    width: 80px;
+    height: 80px;
+  }
+
+  .skillImageContainer img {
+    width: 60px;
+  }
+}

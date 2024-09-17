@@ -1,0 +1,22 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png",
+    "level": "Experienced"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png",
+    "level": "Advanced"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png",
+    "level": "Beginner"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "skills/figma.png",
+    "level": "Intermediate"
+  }
+]

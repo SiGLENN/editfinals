@@ -1,0 +1,64 @@
+.container {
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  margin-top: 120px;
+  padding: 20px;
+  width: 100vw;
+  gap: 10px;
+  text-align: center;
+}
+
+.text {
+  margin-bottom: 20px;
+}
+
+.text h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.text p {
+  font-size: 1rem;
+}
+
+.contactInfo {
+  margin-bottom: 20px;
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.link img {
+  width: 24px;
+  height: 24px;
+}
+
+.linkText {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s;
+}
+
+.linkText:hover {
+  color: var(--color-primary-dark);
+}
+
+.footerBottom {
+  margin-top: 20px;
+}
+
+.footerBottom p {
+  font-size: 0.875rem;
+}
